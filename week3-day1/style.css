@@ -1,0 +1,11 @@
+#navbar {
+        padding: 10px 70px;
+        border: 1px solid purple;
+}
+.navbar-nav ul {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+}
+
+

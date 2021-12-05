@@ -1,0 +1,89 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-image: url(/images/pexels-naae-studio-10281406.jpg);
+}
+
+.menu-container {
+    background: black;
+}
+
+.menu-bar {
+    text-align: center;
+    
+}
+.menu-bar ul {
+    display: flex;
+    list-style-type: none;
+}
+.menu-bar ul li {
+    width: 200px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-bar ul li:hover{
+    background: #bce757;
+    border-radius: 10px;
+}
+
+.sub-menu-1 {
+    display: none;
+}
+
+.sub-menu-1 ul {
+    display: block;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: black;
+    margin-top: 15px;
+    margin-left: -15px;
+    font-size: 15px;
+
+}
+/* .menu-bar ul li:hover .sub-menu-1 ul {
+    display: block;
+} */
+
+
+.Info-container {
+    text-align: center;
+}
+
+.Info-box {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.Info-box h1 {
+    font-size: 45px;
+    margin: 20px;
+}
+.Info-box h2 {
+    margin: 0px;
+    font-size: 70px;
+    letter-spacing: 2px;
+}
+.Info-box p {
+    font-size: 15px;
+    margin: 20px;
+}
+
+
+
+
+
+  
